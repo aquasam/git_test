@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T08:13:23.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="22.1.16" etag="VmTgOQqPe8rF7PwzIim4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T09:56:04.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ok4S7yQcMatrO0nMqSif" version="22.1.16" type="github">
   <diagram name="第 1 页" id="7vrUoNmp-NkTEM97C5Mr">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-1" value="新增订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="148" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-3" value="查询订单列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="324" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hHNwdsAjDTJBNoYv0DNE-6" target="hHNwdsAjDTJBNoYv0DNE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-6" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-7" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-13" value="请求：&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;用户id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;商品id&lt;/span&gt;&lt;/div&gt;商品名&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数量&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="404" y="130" width="170" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;响应：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;结果条数&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[订单id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;商品名]&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="554" y="324" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-18" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;响应：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;状态码&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;订单id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;创建时间&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="560" y="148" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-19" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;请求：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;创建时间(可选)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;商品名(可选)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;订单id(可选)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="404" y="324" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hHNwdsAjDTJBNoYv0DNE-24" target="hHNwdsAjDTJBNoYv0DNE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hHNwdsAjDTJBNoYv0DNE-27">
+          <mxGeometry x="0.4846" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-24" value="状态码 == &quot;0&quot;？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="236" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-25" value="&amp;nbsp;传入订单id,&lt;br&gt;结果条数 &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="412" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hHNwdsAjDTJBNoYv0DNE-1" target="hHNwdsAjDTJBNoYv0DNE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hHNwdsAjDTJBNoYv0DNE-3" target="hHNwdsAjDTJBNoYv0DNE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hHNwdsAjDTJBNoYv0DNE-25" target="hHNwdsAjDTJBNoYv0DNE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-32" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hHNwdsAjDTJBNoYv0DNE-30">
+          <mxGeometry x="-0.3143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="240" />
+              <mxPoint x="400" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-35" value="场景参数：&lt;br&gt;商品id&lt;br&gt;商品名" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="434" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hHNwdsAjDTJBNoYv0DNE-36" value="全局参数：&lt;br&gt;用户id" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="540" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
